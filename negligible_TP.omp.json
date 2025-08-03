@@ -65,7 +65,7 @@
         {
           "foreground": "yellow",
           "style": "plain",
-          "template": "| ⏱ {{ .FormattedMs }} ",
+          "template": "| {{ .FormattedMs }} ",
           "type": "executiontime",
           "properties": {
             "threshold": 0,
