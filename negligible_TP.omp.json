@@ -5,7 +5,7 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "cyan",
+          "foreground": "#00FFFF",
           "style": "powerline",
           "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}}",
           "type": "os"
@@ -65,11 +65,10 @@
         {
           "foreground": "yellow",
           "style": "plain",
-          "template": "| ⏱ {{ .FormattedMs }}ms ",
+          "template": "| ⏱ {{ .FormattedMs }} ",
           "type": "executiontime",
           "properties": {
             "threshold": 0,
-            "style": "roundtrip",
             "format": "ms",
             "precision": 4
           }
